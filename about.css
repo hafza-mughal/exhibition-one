@@ -227,22 +227,11 @@
   font-weight: bold;
 }
 
-/* Media Queries */
-@media screen and (max-width: 768px) {
-  .choosen {
-    font-size: 3rem; /* Adjusted font size for smaller screens */
-  }
-}
 
-@media screen and (max-width: 480px) {
-  .choosen {
-    font-size: 2rem; /* Further reduce font size for smaller screens */
-  }
-}
-
+/* 
 .about {
   margin: 50px;
-}
+} */
 
 .row8 {
   display: flex;
@@ -276,7 +265,7 @@
 }
 
 .text-column2 p {
-  font-size: 20px;
+  font-size: 16px;
   color: #666;
   padding: 30px;
 }
@@ -298,54 +287,13 @@
   color: #00555a;
 }
 
-/* For screens smaller than 768px */
-@media only screen and (max-width: 767px) {
-  .about {
-    margin: 20px;
-  }
-
-  .row8 {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .image-column2,
-  .text-column2 {
-    width: 100%;
-  }
-
-  .image-column2 img {
-    width: 80%;
-    padding-top: 20px;
-    border-radius: 8px;
-  }
-
-  .text-column2 {
-    padding: 0 10px;
-  }
-
-  .text-column2 h1 {
-    font-size: 1.5rem;
-    padding: 20px;
-  }
-
-  .text-column2 p {
-    font-size: 16px;
-    padding: 20px;
-  }
-
-  .text-column2 a{
-    font-size: 16px;
-    padding: 8px 16px;
-    margin: 20px;
-  }
-}
 
 
 
 
 
-/* section-3 */
+/* .........our-speciality------ */
+
 .row9 {
   display: flex;
   justify-content: center;
@@ -403,67 +351,7 @@
   margin: 5px 0 0 0;
 }
 
-/* Media Queries */
 
-@media screen and (max-width: 768px) {
-  .row9 {
-    flex-direction: column;
-    align-items: center;
-    padding: 2rem;
-  }
-
-  .image-column3,
-  .text-column3 {
-    width: 80%;
-    margin: 2rem 0;
-  }
-
-  .icon {
-    width: 100%;
-    text-align: center;
-  }
-
-  .icon img {
-    max-width: 50px;
-    margin-right: 0;
-    margin-bottom: 10px;
-  }
-
-  .icon .text h2 {
-    font-size: 20px;
-  }
-
-  .icon .text p {
-    font-size: 16px;
-  }
-}
-
-@media screen and (max-width: 480px) {
-  .image-column3,
-  .text-column3 {
-    width: 100%;
-    margin: 2rem 0;
-  }
-
-  .icon {
-    width: 100%;
-    text-align: center;
-  }
-
-  .icon img {
-    max-width: 40px;
-    margin-right: 0;
-    margin-bottom: 10px;
-  }
-
-  .icon .text h2 {
-    font-size: 18px;
-  }
-
-  .icon .text p {
-    font-size: 14px;
-  }
-}
 
 
 /* --------our-team---------- */
@@ -532,44 +420,7 @@
 
 /* Media Queries */
 
-@media screen and (max-width: 768px) {
-  .container-3 {
-    flex-direction: column;
-    align-items: center;
-    padding: 2rem;
-  }
 
-  .id-card {
-    width: 100%;
-    max-width: 300px;
-    height: auto;
-    margin-bottom: 2rem;
-  }
-
-  .circle-pic {
-    width: 120px;
-    height: 120px;
-    margin-bottom: 1rem;
-  }
-}
-
-@media screen and (max-width: 480px) {
-  .container-3 {
-    padding: 1rem;
-  }
-
-  .id-card {
-    max-width: 250px;
-  }
-
-  .details h1 {
-    font-size: 1.5rem;
-  }
-
-  .details p {
-    font-size: 14px;
-  }
-}
 
 /* ----------about-icon-section---- */
 .about-icon-row {
@@ -593,13 +444,7 @@
   padding: 10px;
 }
 
-@media(max-width: 767px) {
-  .about-icon-row {
-    flex-direction: column;
-    align-items: center;
-    padding: 2rem;
-  }
-}
+
 
 /* ---------------testimonial-page------- */
 .row5 {
@@ -656,28 +501,8 @@
   color: #494848;
 }
 
-@media screen and (max-width: 767px) {
-  .row5 {
-    flex-direction: column;
-  }
 
-  .testimonial-card {
-    width: 100%;
-    margin: 1rem 0;
-  }
 
-  .info {
-    max-width: 100%;
-  }
-
-  .name {
-    font-size: 1.2rem;
-  }
-
-  .review {
-    font-size: 0.8rem;
-  }
-}
 
 .footer {
   margin-top: 70px;
@@ -797,5 +622,188 @@
     font-size: 30px;
     padding-left: 25px;
     margin-top: 0;
+  }
+}
+
+
+
+
+
+
+/*   media querries of all */
+
+
+
+
+/* Media query for screens up to 768px */
+@media only screen and (max-width: 768px) {
+  .choosen {
+ /* Stack items vertically */
+    align-items: center;
+    font-size: 3rem; 
+    margin-top: 2rem; 
+    gap: 1.5rem;
+  }
+}
+
+/* Media query for screens up to 480px */
+@media only screen and (max-width: 480px) {
+  .choosen {
+    font-size: 2.5rem; 
+    margin-top: 1.5rem; 
+    gap: 1rem; 
+  }
+}
+
+     /* why choose us  */
+
+
+/* Media query for screens up to 768px */
+@media only screen and (max-width: 768px) {
+  .image-column2,
+  .text-column2 {
+    width: 100%; 
+  }
+
+  .text-column2 {
+    padding: 20px; 
+  }
+
+  .text-column2 h1 {
+    font-size: 1.5rem; 
+    padding: 20px; 
+  }
+
+  .text-column2 p {
+    font-size: 18px; 
+    padding: 20px; 
+  }
+
+  .text-column2 a {
+    font-size: 18px; 
+    margin: 20px;
+  }
+}
+
+/* Media query for screens up to 480px */
+@media only screen and (max-width: 480px) {
+  .image-column2,
+  .text-column2 {
+    width: 100%; 
+  }
+
+  .image-column2 img {
+    padding-top: 20px; 
+  }
+
+  .text-column2 h1 {
+    font-size: 1.2rem; 
+    padding: 15px; 
+  }
+
+  .text-column2 p {
+    font-size: 16px; 
+    padding: 15px;
+  }
+
+  .text-column2 a {
+    font-size: 16px; 
+    margin: 15px;
+  }
+}
+
+/* >>>>>>>>>>>>>>>>our speciality>>>>>>>>>>>>>>>>>>> */
+
+
+
+/* Media query for screens up to 768px */
+@media only screen and (max-width: 768px) {
+  .text-column3 {
+    width: 100%;
+    margin: 1rem;
+  }
+
+  .icon .text h2 {
+    font-size: 2rem;
+  }
+
+  .icon .text p {
+    font-size: 1.2rem;
+  }
+}
+
+/* Media query for screens up to 480px */
+@media only screen and (max-width: 480px) {
+  .image-column3,
+  .text-column3 {
+    width: 100%;
+    margin: 1rem;
+  }
+
+  .image-column3 img {
+    margin: 10px 0;
+  }
+
+  .icon .text h2 {
+    font-size: 1.5rem;
+  }
+
+  .icon .text p {
+    font-size: 1rem;
+  }
+}
+
+
+
+/* Media queries for responsive design */
+
+@media only screen and (max-width: 768px) {
+  .testimonial-card {
+    width: 100%; 
+    max-width: 400px; 
+    margin-bottom : 1.5rem; 
+  }
+
+  .testimonial-img-container {
+    width: 30%; 
+    max-width: 100px; 
+  }
+
+  .info {
+    width: 70%; 
+    padding: 1rem; 
+  }
+
+  .name {
+    font-size: 1.3rem; 
+  }
+
+  .review {
+    font-size: 0.9rem; 
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .testimonial-card {
+    width: 100%; 
+    max-width: 300px; 
+    margin-bottom: 1rem; 
+  }
+
+  .testimonial-img-container {
+    display: none; 
+  }
+
+  .info {
+    width: 100%; 
+    padding: 0.5rem; 
+  }
+
+  .name {
+    font-size: 1.1rem; 
+  }
+
+  .review {
+    font-size: 0.8rem; 
   }
 }
